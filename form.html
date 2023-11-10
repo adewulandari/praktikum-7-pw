@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            font-weight: bold;
+        }
+        .form-container{
+            background-color: khaki;
+            border: 2px solid blue;
+            border-radius: 10px;
+            box-shadow: 0 0 10px blueviolet;
+            padding: 10px;
+            width: 350px;
+            margin: 100px auto;
+            height: 400px;
+        }
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h2{
+            text-align: center;
+        }
+        input{
+            float: right;
+          }
+        
+          
+        
+        
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>FORM ENTRY DATA PEGAWAI</h2>
+        <form method="post" action=""> 
+            <div class="form group">
+                <label for="nik">NIK</label>
+                <input type="text" id="nik">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="NAMA">NAMA</label>
+                <input type="text" id="NAMA">
+            </div>
+            <br>
+            <div class="form group">
+                <label for="Tempatlahir">Tempat Lahir</label>
+                <input type="text" id="Tempatlahir">
+            </div>
+            <br>
+            <div class="form group">
+                <label for="Tanggal lahir">Tanggal Lahir</label>
+                <input type="text" id="Tanggal lahir">
+            </div>
+            <br>
+            <div class="form group">
+                <label for="Alamat">Alamat</label>
+                <input type="text" id="Alamat">
+            </div>
+            <br>
+            <div class="form group">
+                <label for="Nomor Telepon">Nomor Telepon</label>
+                <input type="text" id="Nomor Telepon">
+            </div>
+            <br>
+            <div class="form group">
+                <label for="jabatan">Jabatan </label>
+                <select name="jabatan" id="jabatan">
+                    <option value="manager">Manager</option>
+                    <option value="staff">Staff</option>
+                    <option value="supervisor">Supervisor</option>
+                </select>
+            </div>
+            <br>
+            <div class="form group">
+                <label for="status">Status </label>
+        <select name="status" id="status">
+            <option value="aktif">Aktif</option>
+            <option value="tidak_aktif">Tidak Aktif</option>
+        </select>
+            </div>
+            <br>
+            <div class="form group"> 
+            <input type="submit"Kirim>
+            <input type="reset"Batal>
+             </div>
+      </form>
+    </div>
+</body>
+</html>
